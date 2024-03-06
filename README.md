@@ -29,4 +29,4 @@ Reflex est un projet d'école, le but étant d'utiliser docker, la base de donn�
 
 ### Développement
 
-L'application Reflex a été développée en utilisant la plateforme Windows Forms avec le langage de programmation C#. Elle exploite une base de données MySQL pour stocker les scores des joueurs.
+L'application Reflex a été développée en utilisant la plateforme visual studio 2022, application web ASP.NET, html css. Elle exploite une base de données MySQL pour stocker les scores des joueurs.
