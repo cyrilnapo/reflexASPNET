@@ -1,14 +1,34 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Inscription";
 }
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire d'Inscription</title>
 </head>
 <body>
+
+<div class="container">
+    <form action="#" method="post" id="inscriptionForm">
+        <h2>Inscription</h2>
+
+        <label for="pseudo">Pseudo:</label>
+        <input type="text" id="pseudo" name="pseudo" required>
+
+        <label for="motDePasse">Mot de passe:</label>
+        <input type="password" id="motDePasse" name="motDePasse" required>
+
+        <label for="confirmerMotDePasse">Confirmer le mot de passe:</label>
+        <input type="password" id="confirmerMotDePasse" name="confirmerMotDePasse" required>
+
+        <button type="submit">S'inscrire</button>
+    </form>
+</div>
 
 </body>
 </html>
