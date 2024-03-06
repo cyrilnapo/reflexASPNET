@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hw+yqBvihPpDkU5lPfrMY/NdAXuSt52IWQeVR7YP29w+c3LDkrdPvVKwo/SljGz92NCCEXNc++UeyKGTO0ZbiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pt63blc\\Documents\\GitHub\\reflexASPNET\\Reflex_Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pt63blc\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
