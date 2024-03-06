@@ -1,7 +1,7 @@
 ﻿@page
-@model IndexModel
+@model Reflex_Project.Pages.Index1Model
 @{
-    ViewData["Title"] = "Inscription";
+    ViewData["Title"] = "Connexion";
 }
 <!DOCTYPE html>
 <html lang="fr">
@@ -9,13 +9,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Formulaire d'Inscription</title>
+    <title>Formulaire de Connexion</title>
 </head>
 <body>
 
 <div class="container">
-    <form action="#" method="post" id="inscriptionForm">
-        <h2>Inscription</h2>
+    <form action="#" method="post" id="connexionForm">
+        <h2>Connexion</h2>
 
         <label for="pseudo">Pseudo:</label>
         <input type="text" id="pseudo" name="pseudo" required>
@@ -23,12 +23,9 @@
         <label for="motDePasse">Mot de passe:</label>
         <input type="password" id="motDePasse" name="motDePasse" required>
 
-        <label for="confirmerMotDePasse">Confirmer le mot de passe:</label>
-        <input type="password" id="confirmerMotDePasse" name="confirmerMotDePasse" required>
-
-        <button type="submit">S'inscrire</button>
-                <a href="/login">Se connecter</a>
-
+        <button type="submit">Se connecter</button>
+        
+        <a href="/">S'inscrire</a>
     </form>
 </div>
 
