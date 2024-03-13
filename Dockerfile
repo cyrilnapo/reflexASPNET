@@ -20,5 +20,3 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Reflex_Project.dll"]
-
-RUN echo "Hello World"
