@@ -36,6 +36,7 @@ namespace Reflex_Project.Pages
                     command.ExecuteNonQuery();
                 }
             }
+            Response.Cookies.Append("NomUtilisateur", pseudo);
 
             return RedirectToPage("/welcome"); 
         }

@@ -47,7 +47,7 @@ input {
 }
 
 button {
-    background-color: darkorange;
+    background-color: orange;
     color: #fff;
     margin: auto;
     padding: 10px;
@@ -56,13 +56,14 @@ button {
     cursor: pointer;
     width: 65%;
     display: block;
-    box-shadow: 0 0 10px 1px darkorange;
+    box-shadow: 0 0 10px 1px orange;
     margin-top:18px;
 }
 
 
     button:hover {
-        background-color: #45a049;
+        background-color: darkorange;
+        box-shadow: 0 0 10px 1px darkorange;
     }
 
     a{
