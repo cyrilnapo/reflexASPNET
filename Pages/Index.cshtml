@@ -1,37 +1,14 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Inscription";
+    ViewData["Title"] = "Home page";
 }
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Formulaire d'Inscription</title>
+    <p>salut monde</p>
 </head>
 <body>
 
-<div class="container">
-    <form method="post" asp-page-handler="OnPost" id="inscriptionForm">
-        <h2>Inscription</h2>
-
-        <label for="pseudo">Pseudo:</label>
-        <input type="text" id="pseudo" name="pseudo" required>
-
-        <label for="motDePasse">Mot de passe:</label>
-        <input type="password" id="motDePasse" name="motDePasse" required>
-
-        <label for="confirmerMotDePasse">Confirmer le mot de passe:</label>
-        <input type="password" id="confirmerMotDePasse" name="confirmerMotDePasse" required>
-
-        <button type="submit">S'inscrire</button>
-                <a href="/login">Se connecter</a>
-
-    </form>
-</div>
-
 </body>
 </html>
-
