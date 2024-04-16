@@ -1,4 +1,4 @@
-commandes utilisées pour config terminal vscode :
+commandes utilisées pour config terminal vscode (attention à bien être dans le "Dev Environments" docker) :
 
 sudo -i
 
