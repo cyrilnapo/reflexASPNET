@@ -1,4 +1,4 @@
-commandes utilisées pour config terminal vscode (attention à bien être dans le "Dev Environments" docker) :
+commandes utilisées pour config terminal vscode (attention à bien être dans le "Dev Environments" docker sur vscode) :
 
 sudo -i
 
@@ -17,3 +17,6 @@ apt upgrade
 
 sudo apt update
 sudo apt install -y dotnet-sdk-6.0
+
+
+(puis, -> cd bin/debug/net6.0 -> dotnet Reflex_Project.dll)
