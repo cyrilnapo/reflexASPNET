@@ -37,7 +37,6 @@ C:\Users\pt63blc\Documents\GitHub\reflexASPNET\bin\Debug\net6.0\Reflex_Project.d
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\bin\Debug\net6.0\Reflex_Project.runtimeconfig.json
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\bin\Debug\net6.0\Reflex_Project.dll
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\bin\Debug\net6.0\Reflex_Project.pdb
-C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.csproj.AssemblyReference.cache
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.AssemblyInfoInputs.cache
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.AssemblyInfo.cs
@@ -45,13 +44,14 @@ C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.c
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.RazorAssemblyInfo.cache
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.RazorAssemblyInfo.cs
+C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\Reflex_Project.sourcelink.json
+C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets\msbuild.Reflex_Project.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets\msbuild.build.Reflex_Project.props
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Reflex_Project.props
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Reflex_Project.props
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\scopedcss\bundle\Reflex_Project.styles.css
 C:\Users\pt63blc\Documents\GitHub\reflexASPNET\obj\Debug\net6.0\scopedcss\projectbundle\Reflex_Project.bundle.scp.css

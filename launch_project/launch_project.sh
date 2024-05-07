@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd ../
 # Mise à jour et installation des dépendances
 sudo apt update
 sudo apt install -y wget apt-transport-https software-properties-common
@@ -19,8 +19,34 @@ sudo apt update
 # Installation du SDK .NET 6.0
 sudo apt install -y dotnet-sdk-6.0
 
+
+cd launch_project/
+
+echo "Commencement de la création des containers de base de donnée"
+docker compose up -d
+
+# Demander le nom du réseau
+read -p "Veuillez entrer le nom du nouveau réseau Docker sur lequel sera lié vos containers: " network_name
+
+# Créer le réseau
+docker network create $network_name
+
+# Demander le nom du conteneur dev environment
+read -p "Veuillez entrer le nom du conteneur Docker à lier (container dev environment) : " container
+
+
+# Lier les conteneurs au réseau
+docker network connect $network_name $container
+docker network connect $network_name db
+
+
+echo "Le conteneur $container et les containers de db ont été liés au réseau $network_name avec succès."
+echo "Ils peuvent maintenant communiqué entre eux."
+
+
+echo "lancement du fichier .dll..."
 # Déplacement vers le répertoire contenant le fichier .dll
-cd bin/Debug/net6.0
+cd ../bin/Debug/net6.0
 
 # Recherche du fichier .dll
 dll_file=$(find . -name "*.dll")
@@ -33,3 +59,4 @@ fi
 
 # Lancement de l'application
 dotnet "$dll_file"
+
