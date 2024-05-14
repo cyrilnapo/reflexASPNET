@@ -28,23 +28,26 @@ docker compose up -d
 success=false
 
 while [ $success = false ]; do
-  # Execute the command
     read -p "Veuillez entrer le nom du nouveau réseau Docker sur lequel sera lié vos containers: " network_name
     docker network create $network_name
 
-  # Check the exit code of the command
   if [ $? -eq 0 ]; then
-    # The command was successful
     success=true
   fi
 done
 
-# Demander le nom du conteneur dev environment
-read -p "Veuillez entrer le nom du conteneur Docker à lier (container dev environment) : " container
+success=false
 
 
-# Lier les conteneurs au réseau
-docker network connect $network_name $container
+while [ $success = false ]; do
+  read -p "Veuillez entrer l'id du conteneur Docker à lier (container DEV ENVIRONMENT !) : " container
+  docker network connect $network_name $container
+
+  if [ $? -eq 0 ]; then
+    success=true
+  fi
+done
+
 docker network connect $network_name db
 
 
@@ -67,4 +70,3 @@ fi
 
 # Lancement de l'application
 dotnet "$dll_file"
-
