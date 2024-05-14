@@ -25,11 +25,19 @@ cd launch_project/
 echo "Commencement de la création des containers de base de donnée"
 docker compose up -d
 
-# Demander le nom du réseau
-read -p "Veuillez entrer le nom du nouveau réseau Docker sur lequel sera lié vos containers: " network_name
+success=false
 
-# Créer le réseau
-docker network create $network_name
+while [ $success = false ]; do
+  # Execute the command
+    read -p "Veuillez entrer le nom du nouveau réseau Docker sur lequel sera lié vos containers: " network_name
+    docker network create $network_name
+
+  # Check the exit code of the command
+  if [ $? -eq 0 ]; then
+    # The command was successful
+    success=true
+  fi
+done
 
 # Demander le nom du conteneur dev environment
 read -p "Veuillez entrer le nom du conteneur Docker à lier (container dev environment) : " container
