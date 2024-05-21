@@ -60,7 +60,7 @@ echo "lancement du fichier .dll..."
 cd ../bin/Debug/net6.0
 
 # Recherche du fichier .dll
-dll_file=$(find . -name "*.dll")
+dll_file=$(find . -name "Reflex_Project.dll")
 
 # Vérification si le fichier .dll a été trouvé
 if [ -z "$dll_file" ]; then

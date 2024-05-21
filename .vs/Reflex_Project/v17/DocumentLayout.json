@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pt63blc\\Documents\\GitHub\\reflexASPNET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7548A9D8-936A-4C46-8227-A1F7C7F45C14}|Reflex_Project.csproj|c:\\users\\pt63blc\\documents\\github\\reflexaspnet\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7548A9D8-936A-4C46-8227-A1F7C7F45C14}|Reflex_Project.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7548A9D8-936A-4C46-8227-A1F7C7F45C14}|Reflex_Project.csproj|c:\\users\\pt63blc\\documents\\github\\reflexaspnet\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7548A9D8-936A-4C46-8227-A1F7C7F45C14}|Reflex_Project.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\reflexASPNET\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\pt63blc\\Documents\\GitHub\\reflexASPNET\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:20:56.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pt63blc\\Documents\\GitHub\\reflexASPNET\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\pt63blc\\Documents\\GitHub\\reflexASPNET\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T12:54:49.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T12:54:49.768Z"
             }
           ]
         }

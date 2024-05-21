@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using MySql.Data.MySqlClient; // Assurez-vous d'importer ce namespace
 using System;
-using System.Data.SqlClient;
 using System.Threading.Tasks;
 
 public class IndexModel : PageModel
@@ -25,7 +25,7 @@ public class IndexModel : PageModel
         string connectionString = $"Server={DbIp};Database=mysql;User Id=root;Password=root;";
         try
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 await connection.OpenAsync();
                 ConnectionResult = "Connexion réussie.";
