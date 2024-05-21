@@ -6,9 +6,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
 </head>
 <body>
-<p>salut monde</p>
+    <h1>Vérifier la connexion à la base de données</h1>
+    <form method="post">
+        <label for="dbIp">Adresse IP de la base de données :</label>
+        <input type="text" id="dbIp" name="DbIp" />
+        <button type="submit">Vérifier la connexion</button>
+    </form>
+
+    @if (Model.ConnectionResult != null)
+    {
+        <p>Résultat de la connexion : @Model.ConnectionResult</p>
+    }
 </body>
 </html>
