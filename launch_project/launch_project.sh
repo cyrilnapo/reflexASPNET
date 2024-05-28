@@ -19,7 +19,7 @@ sudo apt update
 # Installation du SDK .NET 6.0
 sudo apt install -y dotnet-sdk-6.0
 
-
+# Se place dans le dossier où est le script
 cd launch_project/
 
 echo "Commencement de la création des containers de base de donnée"
