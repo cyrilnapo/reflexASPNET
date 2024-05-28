@@ -18,18 +18,7 @@ services:
     volumes:
       - dbdata:/var/lib/mysql
       - ./scripts:/scripts
-  phpmyadmin:
-    image: phpmyadmin:5.2.0
-    container_name: pma
-    links:
-      - db
-    environment:
-      PMA_HOST: db
-      PMA_PORT: 3306
-      PMA_ARBITRARY: 1
-    restart: always
-    ports:
-      - 8081:80
+  
 
 # The database will be persistent among containers restarts.
 volumes:
