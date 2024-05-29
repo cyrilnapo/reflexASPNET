@@ -27,6 +27,7 @@ docker compose up -d
 
 success=false
 
+# Créer un network
 while [ $success = false ]; do
     read -p "Veuillez entrer le nom du nouveau réseau Docker sur lequel sera lié vos containers: " network_name
     docker network create $network_name
@@ -38,7 +39,7 @@ done
 
 success=false
 
-
+# Lie le container du projet à la db
 while [ $success = false ]; do
   read -p "Veuillez entrer l'id du conteneur Docker à lier (container DEV ENVIRONMENT !) : " container
   docker network connect $network_name $container
@@ -56,6 +57,7 @@ echo "Ils peuvent maintenant communiqué entre eux."
 
 
 echo "lancement du fichier .dll..."
+
 # Déplacement vers le répertoire contenant le fichier .dll
 cd ../bin/Debug/net6.0
 
